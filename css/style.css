@@ -1,0 +1,215 @@
+body{
+    height: auto;
+    margin: 0%;
+    padding: 0%;   
+    text-align: center;
+    
+}
+.navBar{
+    height: auto;
+    background: #0B3B2D;  
+}
+
+.navbar-header a img{
+    width: auto;
+    height: 70px;
+    font-size: 35px;
+    text-decoration: none;
+    color: #0B3B2D;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}
+.btn-custom{
+    width: auto;
+    float: right;
+    font-size: 15px;
+    margin-right: 10px;
+    color: #6C9772;
+    padding: 5px 23px 5px 23px;
+    margin-top: 20px;
+}
+
+.banner{
+    height: 500px;
+    background-image: url(https://www.pennington.com/-/media/Images/Pennington2-NA/US/blog/fertilizer/8-Steps-to-Growing-a-Healthy-Indoor-Garden-Anytime/how-to-grow-a-healthy-indoor-garden-og.jpg);
+    background-position: center;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.container h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: #1b3a1f;
+    margin-top: 50px;
+}
+
+
+.intro{
+    margin-top: 10px;   
+}
+.intro h3{
+    font-size: 30px;
+    text-align: left;
+}
+.intro p{
+    margin: 20px 10px 0 10px;
+    font-size: 20px;
+    text-indent: 30px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+
+.slider{
+    position: relative;
+    margin-top: 50px;
+}
+.slider,#slide, .innerCar, .item, .scrImg, .steps{
+    border-radius: 10px;
+}
+.slider h3{
+    text-align: left;
+    margin: 0px 0 20px 0;
+}
+#slide{
+    width: 100%;
+    background-color: rgb(233, 255, 211);
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 100px rgba(0, 0, 0, 0.12)
+}
+.item{
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.leftPart{
+    float: left;
+}
+.rightPart{
+    float: right;
+}
+.scrImg{
+    width: 45%;
+}
+.scrImg img{
+    width: 50%;
+    height: 40%;
+    border-radius: 15px;
+    margin: 40px 20% 40px 20%;
+    -webkit-box-shadow: 0 20px 20px #777;
+    -moz-box-shadow: 0 20px 20px #777;
+    box-shadow: 0 20px 20px #777;
+}       
+.steps{
+    width: 55%;
+    text-align: left;
+    font-size: 25px;
+}
+.steps p{
+    width: 90%;
+    margin-top: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+.leftPart p{
+    margin-left: 20%;
+}
+.carousel-indicators li{
+    width: 7%;
+    height: 4px;
+    border-radius: 6px;
+    background: rgb(31, 41, 31);
+}
+.carousel-indicators .active{
+    width: 7%;
+    height: 7px;
+    background: rgb(102, 150, 102);
+}
+
+.saveEn h3{
+    text-align: left;
+    margin-top: 50px;
+}
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 200px rgba(0, 0, 0, 0.12);
+    margin-right: 7%;
+}
+.card img{
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.card p{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    margin-top: 10px;
+}
+.plantImg img{
+    object-position: right;
+}
+
+.floatBtn{
+    width: 4%;
+    height: 7%;
+    padding: 10px;
+    position: fixed;
+    background: green;
+    right: 5%;
+    bottom: 15%;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+.floatIcon{
+    width: 5%;
+    height: 5%;
+    margin-top: 8px;
+    margin: 8px 0 0 15px;
+    transform: rotate(90deg);
+}
+
+.footer{
+    width: 100%;
+    bottom: 0px;
+    background: rgb(201, 200, 200);
+    margin-top: 100px;
+}
+.container .tagLine{
+    float: left;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.github{
+    float: right;
+    margin: 20px 10px 20px 10px;
+    cursor: pointer;
+}
+.github img{
+    width: 50px;
+    height: 50px;
+}

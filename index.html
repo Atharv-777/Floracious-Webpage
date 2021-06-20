@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navBar">
+        <div class="container">
+            <div class="navbar navbar-custom">
+                <div class="navbar-header">
+                    <a href="index.html"><img class="logo" src="img/logo.jpg"></a>
+                </div>
+                <button type="button" class="btn btn-custom navbar-btn">Download</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner container">
+        <h3 class="row">Welcome To Floracious</h3>
+    </div>
+
+    <div class="intro container">
+            <h3>Let us introduce you to this app.</h3>
+            <p>This Application is for taking care of your plants. It's like your guide for you about your plants. 
+                We know that there are many peeps who like to do gardening but due to their hectic schedule, they are unable 
+                to do so. So, here comes this app that will remind you to look after your plants(your mini garden at home) 
+                like it will remind you to water plants, it will show you a proper place where there's sufficient light at your home.
+                Check out the instructions given below how to use this app.</p>
+    </div>
+
+    <div class="slider container">
+        <h3>Instructions</h3>
+        <div class="carousel slide" id = "slide" style="border-radius: 10px;">
+            <ol class="carousel-indicators">
+                <li data-target="#slide" data-slide-to="0" class="active"></li>
+                <li data-target="#slide" data-slide-to="1"></li>
+                <li data-target="#slide" data-slide-to="2"></li>
+            </ol>
+            <div class="innerCar carousel-inner">
+                <div class="item active">
+                    <div class="scrImg leftPart">
+                        <img src="img/home.png" alt="Home Screen">
+                    </div>
+                    <div class="steps rightPart">
+                        <p>This is the Home Screen of this app, which contains 4 options - AR, option for setting reminder(for watering the 
+                            plants), option to search information about particular plant and a compass to know postion of the sun.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="steps leftPart">
+                        <p>This is the Search Screen of this app</p>
+                    </div>
+                    <div class="scrImg rightPart">
+                        <img src="img/search.png" alt="Home Screen">
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="scrImg leftPart">
+                        <img src="img/reminder.png" alt="Home Screen">
+                    </div>
+                    <div class="steps rightPart">
+                        <p>This is the Set Reminder Screen of this app</p>
+                    </div>
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#slide" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#slide" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+        </div>
+    </div>
+
+    <div class="saveEn container">
+        <h3>Go Green</h3>
+        <div class="cardContainer">
+            <div class="card">
+                <img src="img/fertilizers.jpg" alt="Avoid chemical fertilizers">
+                <p>Avoid using chemical fertilizers 
+                    and use organic fertilizers.
+                </p>
+            </div>
+            <div class="card">
+                <img src="https://qph.fs.quoracdn.net/main-qimg-be2287edb116c045901ea746d3c0b8a4" alt="Avoid Plastic">
+                <p>Avoid using plastic bags
+                    and start using cloth bags
+                </p>
+            </div>
+            <div class="card plantImg">
+                <img src="https://www.uq.edu.au/news/filething/get-styled/large/95955/tree%20plant.jpg?itok=5d8Qbtlt" alt="Plant more trees">
+                <p>Grow more plants to save environment
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="floatBtn" onclick="toTop()">
+        <span class="floatIcon glyphicon glyphicon-chevron-left">
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <h3 class="tagLine">Made with &#10084; by team Floracious</h3>
+            <a class="github"><img src="img/github.png" alt="Githun Link"></a>
+        </div>
+    </div>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
