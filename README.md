@@ -1,4 +1,4 @@
 # Floracious-Webpage
 ![](img/logo.jpg)
 
-This repository contains instructions to use floracious applicatio.
+This repository contains instructions to use floracious application.
